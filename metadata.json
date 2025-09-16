@@ -1,0 +1,5 @@
+{
+  "name": "SyncStage - Wireless Presentation Control",
+  "description": "A web application to remotely control content displayed on a main screen from a separate control interface. It supports images, videos, YouTube embeds, and PowerBI reports with real-time synchronization.",
+  "requestFramePermissions": []
+}
