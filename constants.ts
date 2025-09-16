@@ -7,7 +7,7 @@ export const CONTENT_ITEMS: ContentItem[] = [
     type: ContentType.POWERBI,
     title: 'Sales Dashboard',
     description: 'Quarterly sales performance report.',
-    src: 'https://app.powerbi.com/view?r=eyJrIjoiYjllMWE4YjctNDdlYy00NDc3LWI2ZDItY2IzYWM2Y2M2Nzk5IiwidCI6ImZhMTU5N2Y2LWI3ZDYtNDc5Yy05YmMzLTg4MWI2NTVhYjliZiIsImMiOjEwfQ%3D%3D',
+    src: 'https://app.powerbi.com/view?r=eyJrIjoiYjllMWE4YjctNDdlYy00NDc3LWI2ZDItY2IzYWM2Y2M2Nzk5IiwidCI6ImZhMTU5N2Y2LWI3ZDYtNDc5Yy05YmMzLTg4MWI2NTVhYjliZiIsImMiOjEwfQ%3D%3D&navContentPaneEnabled=false&filterPaneEnabled=false',
   },
   {
     id: 'img-1',
@@ -28,7 +28,7 @@ export const CONTENT_ITEMS: ContentItem[] = [
     type: ContentType.YOUTUBE,
     title: 'Tech Talk',
     description: 'A presentation on future technology.',
-    src: 'https://www.youtube.com/embed/dQw4w9WgXcQ', // Placeholder video
+    src: 'https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1&controls=0&modestbranding=1&rel=0&showinfo=0',
   },
     {
     id: 'img-2',

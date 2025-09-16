@@ -57,3 +57,22 @@ export const PlayIcon: React.FC<IconProps> = (props) => (
     <path strokeLinecap="round" strokeLinejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
   </svg>
 );
+
+export const SpinnerIcon: React.FC<IconProps> = (props) => (
+  <svg fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" {...props} className={`animate-spin ${props.className || ''}`}>
+    <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 12c0-4.142-3.358-7.5-7.5-7.5S4.5 7.858 4.5 12s3.358 7.5 7.5 7.5" />
+  </svg>
+);
+
+export const ExclamationTriangleIcon: React.FC<IconProps> = (props) => (
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" {...props}>
+    <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" />
+  </svg>
+);
+
+export const WifiOffIcon: React.FC<IconProps> = (props) => (
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" {...props}>
+    <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9 9 0 01-9-9 9 9 0 019-9 9 9 0 019 9 9 9 0 01-9 9zm0 0a8.966 8.966 0 006.364-2.636m-12.728 0A8.966 8.966 0 0012 21zm0-18a8.966 8.966 0 00-6.364 2.636m12.728 0A8.966 8.966 0 0012 3zm-3.364 9a3.375 3.375 0 116.75 0 3.375 3.375 0 01-6.75 0zm-2.25-2.25a.75.75 0 100 1.5.75.75 0 000-1.5z" clipRule="evenodd" />
+    <path strokeLinecap="round" strokeLinejoin="round" d="M4.93 4.93l14.14 14.14" />
+  </svg>
+);

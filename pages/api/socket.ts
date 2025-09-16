@@ -28,8 +28,8 @@ export default function handler(req: NextApiRequest, res: NextApiResponseWithSoc
   // If a socket server is already running, we're done.
   if (res.socket.server.io) {
     console.log('Socket is already running');
-    // FIX: Replaced `res.end()` with `res.send()` to resolve a TypeScript type error.
-    res.send();
+    // FIX: Changed `res.send()` to `res.end()` to correctly terminate the response and resolve the type error.
+    res.end();
     return;
   }
 
@@ -79,6 +79,6 @@ export default function handler(req: NextApiRequest, res: NextApiResponseWithSoc
     });
   });
 
-  // FIX: Replaced `res.end()` with `res.send()` to resolve a TypeScript type error.
-  res.send();
+  // FIX: Changed `res.send()` to `res.end()` to correctly terminate the response and resolve the type error.
+  res.end();
 }
